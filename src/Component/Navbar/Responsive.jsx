@@ -6,7 +6,7 @@ const ColorObj = {
 }
 
   return (
-    <div id='targetRes' className='block fixed inset-0 z-999'>
+    <div id='targetRes' className='hidden fixed inset-0 z-999'>
       
       <div className=' w-full h-full flex flex-col gap-14 items-end pe-20 pt-20' style = {ColorObj}>
 

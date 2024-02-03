@@ -1,3 +1,4 @@
+import Hero from "./Component/HerroSection/Hero"
 import Navbar from "./Component/Navbar/Navbar"
 
 
@@ -7,8 +8,9 @@ function App() {
 
   return (
     <>
-      <h1>hello</h1>
+    
       <Navbar />
+      <Hero />
     </>
   )
 }
