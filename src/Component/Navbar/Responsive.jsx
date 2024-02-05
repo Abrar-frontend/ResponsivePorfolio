@@ -1,6 +1,7 @@
 import React from 'react';
 
 function Responsive({fun}) {
+
 const ColorObj = {
   backgroundColor : '#F4ECE6'
 }

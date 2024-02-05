@@ -12,12 +12,12 @@ function Navbar() {
     
     <div className="w-100 h-20 flex items-center justify-between bg-slate-50 px-10 relative">
 
-        <div className="flex gap-4 items-center">
+        <div className="flex gap-4 items-center z-0">
     {/*  dotted div */}
-            <div className='bg-blue-800 w-4 h-4'>
+            <div className='bg-blue-800 w-4 h-4 sm:block hidden'>
             </div>
 
-            <div className=' flex gap-2 font-semibold'>
+            <div className=' flex gap-2 font-semibold flex-col sm:flex-row'>
 
             <h2 className='font-bold  text-3xl'>Abrar khan</h2>
             <h4 className=' text-2xl mt-1'> / PROJECT MANAGER</h4>

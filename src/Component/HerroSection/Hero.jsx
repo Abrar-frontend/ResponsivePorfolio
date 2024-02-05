@@ -5,7 +5,7 @@ import HeroLeftPart from './HeroLeftPart'
 function Hero() {
   return (
     <>
-    <div className='w-full h-screen border border-red-600 flex flex-row'>
+    <div className='w-full h-screen flex lg:flex-row flex-col '>
    
 
     <HeroRightPart />
