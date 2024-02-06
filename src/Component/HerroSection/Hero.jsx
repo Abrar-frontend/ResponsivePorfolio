@@ -5,7 +5,7 @@ import HeroLeftPart from './HeroLeftPart'
 function Hero() {
   return (
     <>
-    <div className='w-full h-screen flex lg:flex-row flex-col '>
+    <div className='w-full h-screen flex lg:flex-row flex-col  mb-36 pb-36 border border-blue-700' style = {{paddingBottom:'50%'}}>
    
 
     <HeroRightPart />

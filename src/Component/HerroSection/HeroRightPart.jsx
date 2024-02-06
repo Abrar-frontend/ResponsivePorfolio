@@ -9,9 +9,9 @@ function HeroRightPart() {
     <>
         <div className='w-full h-screen pt-20 pb-96 z-0' style = {ColorObj}>
         
-            <div className='relative lg:left-64 left-4 z-0'>
+            <div className='relative lg:left-64 left-4'>
 
-                <div className=" mt-20 ms-20 h-96  w-96 flex flex-col gap-4 justify-center items-center shadow-lg z-0" style = {{backgroundColor:"rgb(247, 241, 236)"}}>
+                <div className=" mt-20 ms-20 h-96  w-96 flex flex-col gap-4 justify-center items-center shadow-lg z-0 " style = {{backgroundColor:"rgb(247, 241, 236)"}}>
 
                     <div className='w-40 h-40 rounded-full' style = {{backgroundColor:'#B1B1B1'}}>
 
@@ -36,10 +36,10 @@ function HeroRightPart() {
                 </div>
 
             </div>
-            <div className='w-full h-full z-0' style = {ColorObj}>
+            {/* <div className='w-full h-48 ' style = {ColorObj}>
         
 
-            </div>
+            </div> */}
         </div>
 
 

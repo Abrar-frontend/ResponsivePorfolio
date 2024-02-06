@@ -30,13 +30,18 @@ function Footer() {
 </div> */}
 
 
+ 
+<div className='max-w-full h-36 flex flex-row border border-purple-500 fixed bottom-0'>
+
+</div>
+
   {/* footer starting from here */}
 
-      <div className='w-full h-24 flex flex-row  border border-red-800'>
+      <div className='w-full h-24 flex flex-row border border-red-800 fixed bottom-0 bg-white'>
       
         {/* left div of footer is starting from here */}
 
-        <div className='w-full flex items-start pl-16 justify-center flex-col'>
+        <div className='w-full flex items-start pl-16 justify-center flex-col '>
           <p> Create it in 2024</p>
           <p> Power and Secure by <span className='underline'>Abrar khan</span></p>
         </div>

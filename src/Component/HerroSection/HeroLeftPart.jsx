@@ -3,7 +3,7 @@ import React from 'react'
 function HeroLeftPart() {
   return (
     <>
-    <div className='w-full ps-20 pt-20'>
+    <div className='w-full h-full ps-20 pt-20 mb-36'>
     
         <div className=' flex flex-col gap-12 mt-20'>
 
