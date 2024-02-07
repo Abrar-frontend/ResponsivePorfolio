@@ -7,13 +7,13 @@ const ColorObj = {
 }
 
   return (
-    <div id='targetRes' className='hidden fixed inset-0 z-999'>
+    <div id='targetRes' className='hidden fixed inset-0 z-999'style = {ColorObj}>
       
-      <div className=' w-full h-full flex flex-col gap-14 items-end pe-20 pt-20' style = {ColorObj}>
+      <div className=' w-full h-full absolute top-0 border border-red-400 flex flex-col gap-14 items-end pe-20 pt-20'>
 
         <p className = 'text-5xl hover:cursor-pointer me-20' onClick={() => {fun()}}> X </p>
 
-        <ul className='flex gap-10 flex-col mt-10 w-full items-center'>
+        <ul className='flex gap-10 flex-col mt-0 w-full items-center'>
 
             <li className='hover:cursor-pointer font-bold text-3xl'> ABOUT ME </li>
             <li className='hover:cursor-pointer font-bold text-3xl'> RESUME </li>

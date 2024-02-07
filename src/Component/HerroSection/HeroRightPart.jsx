@@ -7,11 +7,11 @@ function HeroRightPart() {
 
   return (
     <>
-        <div className='w-full h-screen pt-20 pb-96 z-0' style = {ColorObj}>
+        <div className='w-full h-screen pt-20 pb-96' style = {ColorObj}>
         
             <div className='relative lg:left-64 left-4'>
 
-                <div className=" mt-20 ms-20 h-96  w-96 flex flex-col gap-4 justify-center items-center shadow-lg z-0 " style = {{backgroundColor:"rgb(247, 241, 236)"}}>
+                <div className=" mt-8 md:mt-20 ms-20 h-96  w-96 flex flex-col gap-4 justify-center items-center shadow-lg z-0 " style = {{backgroundColor:"rgb(247, 241, 236)"}}>
 
                     <div className='w-40 h-40 rounded-full' style = {{backgroundColor:'#B1B1B1'}}>
 
@@ -26,7 +26,7 @@ function HeroRightPart() {
 
                 </div>
                 {/* Card footer div */}
-                <div className="ms-20 w-96 h-16 bg-white">
+                <div className="ms-20 w-96 h-16 bg-white border-blue-700 border">
                     <ul className='h-full flex justify-center items-center gap-6 text-3xl'>
                         <i class="fa-brands fa-facebook cursor-pointer"></i>
                         <i class="fa-brands fa-twitter cursor-pointer"></i>
@@ -36,7 +36,7 @@ function HeroRightPart() {
                 </div>
 
             </div>
-            {/* <div className='w-full h-48 ' style = {ColorObj}>
+            {/* <div className='w-full h-32 ' style = {ColorObj}>
         
 
             </div> */}
